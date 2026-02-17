@@ -5,8 +5,6 @@ VisualStudioVersion = 17.14.36930.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hanumachantsApi", "hanumachantsApi.csproj", "{34AEC689-85A6-4CF1-A501-6CFA9E42990E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionCleaner", "..\SessionCleaner\SessionCleaner.csproj", "{B53983D9-364E-4D57-9F19-E10A22ABCCBF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{34AEC689-85A6-4CF1-A501-6CFA9E42990E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AEC689-85A6-4CF1-A501-6CFA9E42990E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AEC689-85A6-4CF1-A501-6CFA9E42990E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B53983D9-364E-4D57-9F19-E10A22ABCCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B53983D9-364E-4D57-9F19-E10A22ABCCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B53983D9-364E-4D57-9F19-E10A22ABCCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B53983D9-364E-4D57-9F19-E10A22ABCCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
