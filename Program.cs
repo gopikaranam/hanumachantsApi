@@ -13,14 +13,17 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.UseCors("AllowAll");
+
 // Enable Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+
 app.UseAuthorization();
 app.MapGet("/", () => Results.Redirect("/swagger"));
+
 app.MapControllers();
 app.Run();
