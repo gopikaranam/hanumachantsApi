@@ -18,7 +18,6 @@ public class TableService
 
     public async Task<SessionEntity> CreateAsync()
     {
-        //var id = Guid.NewGuid().ToString("HNMT")[..8].ToUpper();
         var id = "HNMT-" + Guid.NewGuid().ToString()[..6].ToUpper();
 
         var entity = new SessionEntity
